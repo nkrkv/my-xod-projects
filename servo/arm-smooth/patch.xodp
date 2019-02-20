@@ -12,14 +12,25 @@
       }
     },
     {
-      "id": "BkChViYS4",
+      "id": "BkjUMa9BN",
+      "input": {
+        "nodeId": "ByvLMacS4",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJtvkH_B4",
+        "pinKey": "B1WX3NuSN"
+      }
+    },
+    {
+      "id": "HJ_vMaqr4",
       "input": {
         "nodeId": "BJEi_EdBE",
         "pinKey": "HkfXAUEdrN"
       },
       "output": {
-        "nodeId": "SJtvkH_B4",
-        "pinKey": "B1WX3NuSN"
+        "nodeId": "ByvLMacS4",
+        "pinKey": "__out__"
       }
     },
     {
@@ -67,14 +78,14 @@
       }
     },
     {
-      "id": "Hyg-C4oKB4",
+      "id": "S1TLf6crV",
       "input": {
-        "nodeId": "ryW0NiYH4",
-        "pinKey": "__in__"
+        "nodeId": "SJhu9qtHN",
+        "pinKey": "ryRL99YBV"
       },
       "output": {
-        "nodeId": "SJtvkH_B4",
-        "pinKey": "B1WX3NuSN"
+        "nodeId": "ByvLMacS4",
+        "pinKey": "__out__"
       }
     },
     {
@@ -141,17 +152,6 @@
       "output": {
         "nodeId": "SJtvkH_B4",
         "pinKey": "H13434dH4"
-      }
-    },
-    {
-      "id": "SyM-R4oFB4",
-      "input": {
-        "nodeId": "SJhu9qtHN",
-        "pinKey": "ryRL99YBV"
-      },
-      "output": {
-        "nodeId": "rJWZRNsFr4",
-        "pinKey": "__out__"
       }
     },
     {
@@ -249,6 +249,14 @@
         "y": 630
       },
       "type": "@/arm"
+    },
+    {
+      "id": "ByvLMacS4",
+      "position": {
+        "x": 176,
+        "y": 420
+      },
+      "type": "xod/patch-nodes/jumper"
     },
     {
       "id": "H1A1kB_HN",
@@ -381,15 +389,6 @@
       "type": "xod/patch-nodes/to-bus"
     },
     {
-      "id": "rJWZRNsFr4",
-      "label": "DEV'",
-      "position": {
-        "x": 264,
-        "y": 420
-      },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
       "id": "ryCUDDES4",
       "label": "DONE",
       "position": {
@@ -397,15 +396,6 @@
         "y": 840
       },
       "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "id": "ryW0NiYH4",
-      "label": "DEV'",
-      "position": {
-        "x": 132,
-        "y": 210
-      },
-      "type": "xod/patch-nodes/to-bus"
     },
     {
       "id": "ryW6cncKHE",
