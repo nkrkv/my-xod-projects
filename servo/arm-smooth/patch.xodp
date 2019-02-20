@@ -12,6 +12,17 @@
       }
     },
     {
+      "id": "BJv86acHE",
+      "input": {
+        "nodeId": "SyOHHVOrV",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Sk7DdoYSE",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
       "id": "BkjUMa9BN",
       "input": {
         "nodeId": "ByvLMacS4",
@@ -210,17 +221,6 @@
       }
     },
     {
-      "id": "ryQ2_V_rE",
-      "input": {
-        "nodeId": "SyOHHVOrV",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "BJEi_EdBE",
-        "pinKey": "S1wmRINuHV"
-      }
-    },
-    {
       "id": "rylPVTi9HN",
       "input": {
         "nodeId": "r1wV6o5SE",
@@ -354,7 +354,7 @@
       "id": "SyOHHVOrV",
       "label": "ACK",
       "position": {
-        "x": 220,
+        "x": 264,
         "y": 840
       },
       "type": "xod/patch-nodes/output-pulse"

@@ -1,6 +1,50 @@
 {
   "links": [
     {
+      "id": "Bkct0p9r4",
+      "input": {
+        "nodeId": "SkBRVSuH4",
+        "pinKey": "SkYq4r_B4"
+      },
+      "output": {
+        "nodeId": "BJSKA65HV",
+        "pinKey": "BkqLCOSw1W"
+      }
+    },
+    {
+      "id": "BkkYCa5SN",
+      "input": {
+        "nodeId": "rk6OAp9r4",
+        "pinKey": "H1SVIAuBDJZ"
+      },
+      "output": {
+        "nodeId": "HJBORpqB4",
+        "pinKey": "HyRmUCdBDkZ"
+      }
+    },
+    {
+      "id": "ByKORp9SV",
+      "input": {
+        "nodeId": "HJBORpqB4",
+        "pinKey": "rkJ4URuHDJ-"
+      },
+      "output": {
+        "nodeId": "BkE3a4uHV",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1PtRaqBV",
+      "input": {
+        "nodeId": "BJSKA65HV",
+        "pinKey": "SkdIRuBD1b"
+      },
+      "output": {
+        "nodeId": "HJIa6E_r4",
+        "pinKey": "__out__"
+      }
+    },
+    {
       "id": "H1wRNSOHV",
       "input": {
         "nodeId": "SkBRVSuH4",
@@ -8,6 +52,17 @@
       },
       "output": {
         "nodeId": "H1010NuBE",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJ_u0pqHV",
+      "input": {
+        "nodeId": "HJBORpqB4",
+        "pinKey": "BypX80uSD1Z"
+      },
+      "output": {
+        "nodeId": "r1AsTEuHE",
         "pinKey": "__out__"
       }
     },
@@ -34,14 +89,14 @@
       }
     },
     {
-      "id": "S1p0VSdHE",
+      "id": "SJKYAp5r4",
       "input": {
-        "nodeId": "SkBRVSuH4",
-        "pinKey": "SkYq4r_B4"
+        "nodeId": "BJSKA65HV",
+        "pinKey": "BytUCdHD1-"
       },
       "output": {
-        "nodeId": "HJIa6E_r4",
-        "pinKey": "__out__"
+        "nodeId": "rk6OAp9r4",
+        "pinKey": "B1LNICdSDJW"
       }
     },
     {
@@ -113,10 +168,18 @@
   ],
   "nodes": [
     {
+      "id": "BJSKA65HV",
+      "position": {
+        "x": 220,
+        "y": 420
+      },
+      "type": "xod/core/divide"
+    },
+    {
       "id": "Bk--RE_rV",
       "position": {
         "x": -44,
-        "y": 420
+        "y": 840
       },
       "type": "xod/patch-nodes/output-number"
     },
@@ -136,7 +199,7 @@
       "id": "H1010NuBE",
       "label": "REV",
       "position": {
-        "x": 220,
+        "x": 352,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -148,9 +211,17 @@
       "id": "HJ8JHB_r4",
       "position": {
         "x": -44,
-        "y": 315
+        "y": 735
       },
       "type": "xod/math/map"
+    },
+    {
+      "id": "HJBORpqB4",
+      "position": {
+        "x": 264,
+        "y": 210
+      },
+      "type": "xod/core/subtract"
     },
     {
       "boundLiterals": {
@@ -159,7 +230,7 @@
       "id": "HJIa6E_r4",
       "label": "RATE",
       "position": {
-        "x": 176,
+        "x": 220,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -168,7 +239,7 @@
       "id": "S1Rp6EuBE",
       "label": "PLAY",
       "position": {
-        "x": 264,
+        "x": 396,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -176,8 +247,8 @@
     {
       "id": "SkBRVSuH4",
       "position": {
-        "x": 176,
-        "y": 105
+        "x": 308,
+        "y": 525
       },
       "type": "@/animate-linear-unit"
     },
@@ -194,17 +265,25 @@
       "id": "rJIn0NdBV",
       "label": "FWD",
       "position": {
-        "x": 308,
+        "x": 440,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "id": "rk6OAp9r4",
+      "position": {
+        "x": 264,
+        "y": 315
+      },
+      "type": "xod/math/abs"
+    },
+    {
       "id": "rkyv-a5S4",
       "label": "DONE",
       "position": {
-        "x": 264,
-        "y": 420
+        "x": 396,
+        "y": 840
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -212,8 +291,8 @@
       "id": "ry6X04drV",
       "label": "ACT",
       "position": {
-        "x": 220,
-        "y": 420
+        "x": 352,
+        "y": 840
       },
       "type": "xod/patch-nodes/output-boolean"
     }
