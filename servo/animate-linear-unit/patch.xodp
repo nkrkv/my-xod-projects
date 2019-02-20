@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "BkbYcVSuHE",
+      "label": "REV",
+      "position": {
+        "x": 176,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ByGYcNBdS4",
+      "label": "FWD",
+      "position": {
+        "x": 264,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "True"
+      },
+      "id": "H1e_sEruBN",
+      "label": "IDLE",
+      "position": {
+        "x": 176,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "id": "HJ_oNS_HE",
+      "position": {
+        "x": 132,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "id": "SkYq4r_B4",
+      "label": "RATE",
+      "position": {
+        "x": 132,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "SylFqNr_S4",
+      "label": "PLAY",
+      "position": {
+        "x": 220,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ryM6VS_SV",
+      "position": {
+        "x": 132,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

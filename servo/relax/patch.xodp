@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "H1siUVdSV",
+      "label": "OK",
+      "position": {
+        "x": 132,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Hyw284_BV",
+      "position": {
+        "x": 44,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "SkuVINuHV",
+      "label": "DEV'",
+      "position": {
+        "x": 44,
+        "y": 210
+      },
+      "type": "@/output-servo"
+    },
+    {
+      "id": "r1I7U4Or4",
+      "label": "DEV",
+      "position": {
+        "x": 44,
+        "y": 0
+      },
+      "type": "@/input-servo"
+    },
+    {
+      "id": "rkzIUV_S4",
+      "label": "SET",
+      "position": {
+        "x": 132,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "ByWUksLOHN",
+      "position": {
+        "x": 44,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "HJL1sL_SV",
+      "position": {
+        "x": 44,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "S1eI1oLOrV",
+      "position": {
+        "x": 44,
+        "y": 315
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

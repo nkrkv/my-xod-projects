@@ -1,0 +1,201 @@
+{
+  "links": [
+    {
+      "id": "H1wRNSOHV",
+      "input": {
+        "nodeId": "SkBRVSuH4",
+        "pinKey": "BkbYcVSuHE"
+      },
+      "output": {
+        "nodeId": "H1010NuBE",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJqxrrdSV",
+      "input": {
+        "nodeId": "Bk--RE_rV",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "HJ8JHB_r4",
+        "pinKey": "H12bIR_SPyZ"
+      }
+    },
+    {
+      "id": "HJylSB_BE",
+      "input": {
+        "nodeId": "HJ8JHB_r4",
+        "pinKey": "rkpbU0OrwyZ"
+      },
+      "output": {
+        "nodeId": "BkE3a4uHV",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1p0VSdHE",
+      "input": {
+        "nodeId": "SkBRVSuH4",
+        "pinKey": "SkYq4r_B4"
+      },
+      "output": {
+        "nodeId": "HJIa6E_r4",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkOCNr_B4",
+      "input": {
+        "nodeId": "SkBRVSuH4",
+        "pinKey": "SylFqNr_S4"
+      },
+      "output": {
+        "nodeId": "S1Rp6EuBE",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r13xrS_BE",
+      "input": {
+        "nodeId": "ry6X04drV",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SkBRVSuH4",
+        "pinKey": "H1e_sEruBN"
+      }
+    },
+    {
+      "id": "rk5CEBdSN",
+      "input": {
+        "nodeId": "SkBRVSuH4",
+        "pinKey": "ByGYcNBdS4"
+      },
+      "output": {
+        "nodeId": "rJIn0NdBV",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rk7eBBdH4",
+      "input": {
+        "nodeId": "HJ8JHB_r4",
+        "pinKey": "BJlzICOSv1-"
+      },
+      "output": {
+        "nodeId": "SkBRVSuH4",
+        "pinKey": "HJ_oNS_HE"
+      }
+    },
+    {
+      "id": "rkpyHruBE",
+      "input": {
+        "nodeId": "HJ8JHB_r4",
+        "pinKey": "rJbGU0_Hv1Z"
+      },
+      "output": {
+        "nodeId": "r1AsTEuHE",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Bk--RE_rV",
+      "position": {
+        "x": -44,
+        "y": 420
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "id": "BkE3a4uHV",
+      "label": "TO",
+      "position": {
+        "x": 132,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "H1010NuBE",
+      "label": "REV",
+      "position": {
+        "x": 220,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "HJCWLAdSwyW": "1"
+      },
+      "id": "HJ8JHB_r4",
+      "position": {
+        "x": -44,
+        "y": 315
+      },
+      "type": "xod/math/map"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "id": "HJIa6E_r4",
+      "label": "RATE",
+      "position": {
+        "x": 176,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "S1Rp6EuBE",
+      "label": "PLAY",
+      "position": {
+        "x": 264,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "SkBRVSuH4",
+      "position": {
+        "x": 176,
+        "y": 105
+      },
+      "type": "@/animate-linear-unit"
+    },
+    {
+      "id": "r1AsTEuHE",
+      "label": "FROM",
+      "position": {
+        "x": 88,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "rJIn0NdBV",
+      "label": "FWD",
+      "position": {
+        "x": 308,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ry6X04drV",
+      "label": "IDLE",
+      "position": {
+        "x": 220,
+        "y": 420
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    }
+  ]
+}

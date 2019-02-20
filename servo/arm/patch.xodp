@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "0.5"
+      },
+      "id": "B1lXALNOS4",
+      "label": "α",
+      "position": {
+        "x": 44,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "HkfXAUEdrN",
+      "label": "DEV",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-servo"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "id": "S1Q7C8NdBV",
+      "label": "SET",
+      "position": {
+        "x": 88,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "S1wmRINuHV",
+      "label": "ACK",
+      "position": {
+        "x": 44,
+        "y": 315
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SkQ0INuHE",
+      "label": "DEV'",
+      "position": {
+        "x": 0,
+        "y": 315
+      },
+      "type": "@/output-servo"
+    },
+    {
+      "id": "r14QALE_rE",
+      "position": {
+        "x": 0,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

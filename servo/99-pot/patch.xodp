@@ -1,0 +1,33 @@
+{
+  "links": [
+    {
+      "id": "BkKqXIuHE",
+      "input": {
+        "nodeId": "SJw9Q8OBN",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJV9QUdSN",
+        "pinKey": "H1sM2A12-"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "SJw9Q8OBN",
+      "position": {
+        "x": 308,
+        "y": 315
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJV9QUdSN",
+      "position": {
+        "x": 308,
+        "y": 105
+      },
+      "type": "xod/common-hardware/pot"
+    }
+  ]
+}
