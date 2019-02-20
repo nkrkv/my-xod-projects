@@ -23,7 +23,7 @@
         "__in__": "True"
       },
       "id": "H1e_sEruBN",
-      "label": "IDLE",
+      "label": "ACT",
       "position": {
         "x": 176,
         "y": 210
@@ -58,6 +58,15 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "rJJhl6cH4",
+      "label": "DONE",
+      "position": {
+        "x": 220,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-pulse"
     },
     {
       "id": "ryM6VS_SV",

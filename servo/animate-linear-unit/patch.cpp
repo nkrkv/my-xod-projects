@@ -11,14 +11,10 @@ void evaluate(Context ctx) {
     auto rate = max(0, getValue<input_RATE>(ctx));
     auto out = getValue<output_OUT>(ctx);
 
-    if (isSettingUp()) {
-        emitValue<output_IDLE>(ctx, true);
-    }
-
     if (isInputDirty<input_FWD>(ctx)) {
         // Fast forward to 1.0
         emitValue<output_OUT>(ctx, 1);
-        emitValue<output_IDLE>(ctx, true);
+        emitValue<output_ACT>(ctx, false);
         clearTimeout(ctx);
         return;
     }
@@ -26,7 +22,7 @@ void evaluate(Context ctx) {
     if (isInputDirty<input_PLAY>(ctx)) {
         // Start animation from scratch
         emitValue<output_OUT>(ctx, 0);
-        emitValue<output_IDLE>(ctx, false);
+        emitValue<output_ACT>(ctx, true);
         state->prevTime = now;
         setTimeout(ctx, 0);
         return;
@@ -35,7 +31,7 @@ void evaluate(Context ctx) {
     if (isInputDirty<input_REV>(ctx)) {
         // Rewind to 0.0 and cancel animation
         emitValue<output_OUT>(ctx, 0);
-        emitValue<output_IDLE>(ctx, true);
+        emitValue<output_ACT>(ctx, false);
         clearTimeout(ctx);
         return;
     }
@@ -47,10 +43,11 @@ void evaluate(Context ctx) {
 
         if (out >= 1) {
             emitValue<output_OUT>(ctx, 1);
-            emitValue<output_IDLE>(ctx, true);
+            emitValue<output_ACT>(ctx, false);
+            emitValue<output_DONE>(ctx, 1);
         } else {
             emitValue<output_OUT>(ctx, out);
-            emitValue<output_IDLE>(ctx, false);
+            emitValue<output_ACT>(ctx, true);
             state->prevTime = now;
             setTimeout(ctx, 0);
         }

@@ -12,17 +12,6 @@
       }
     },
     {
-      "id": "BJiBkH_BE",
-      "input": {
-        "nodeId": "r1KGkSdHV",
-        "pinKey": "SkJ46dw6-"
-      },
-      "output": {
-        "nodeId": "BJIryS_rE",
-        "pinKey": "r1if8ROSDJ-"
-      }
-    },
-    {
       "id": "BkChViYS4",
       "input": {
         "nodeId": "BJEi_EdBE",
@@ -34,17 +23,6 @@
       }
     },
     {
-      "id": "HJFB1BuBV",
-      "input": {
-        "nodeId": "BJIryS_rE",
-        "pinKey": "ry3zLA_Bv1Z"
-      },
-      "output": {
-        "nodeId": "H1A1kB_HN",
-        "pinKey": "ry6X04drV"
-      }
-    },
-    {
       "id": "HJbD1BurN",
       "input": {
         "nodeId": "H1A1kB_HN",
@@ -53,17 +31,6 @@
       "output": {
         "nodeId": "S1n9Yv4r4",
         "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "HkBYo8uSN",
-      "input": {
-        "nodeId": "BJZtoU_HN",
-        "pinKey": "HJL1sL_SV"
-      },
-      "output": {
-        "nodeId": "H1A1kB_HN",
-        "pinKey": "ry6X04drV"
       }
     },
     {
@@ -108,17 +75,6 @@
       "output": {
         "nodeId": "SJtvkH_B4",
         "pinKey": "B1WX3NuSN"
-      }
-    },
-    {
-      "id": "S1Bi5cKBV",
-      "input": {
-        "nodeId": "SJhu9qtHN",
-        "pinKey": "Bk-GcqKrN"
-      },
-      "output": {
-        "nodeId": "BJZtoU_HN",
-        "pinKey": "S1eI1oLOrV"
       }
     },
     {
@@ -199,6 +155,28 @@
       }
     },
     {
+      "id": "r10D-TcHV",
+      "input": {
+        "nodeId": "SJhu9qtHN",
+        "pinKey": "Bk-GcqKrN"
+      },
+      "output": {
+        "nodeId": "H1A1kB_HN",
+        "pinKey": "rkyv-a5S4"
+      }
+    },
+    {
+      "id": "r1rdWT9B4",
+      "input": {
+        "nodeId": "r1KGkSdHV",
+        "pinKey": "SkJ46dw6-"
+      },
+      "output": {
+        "nodeId": "H1A1kB_HN",
+        "pinKey": "ry6X04drV"
+      }
+    },
+    {
       "id": "rJdoONuSE",
       "input": {
         "nodeId": "HJuBDDNSV",
@@ -271,22 +249,6 @@
         "y": 630
       },
       "type": "@/arm"
-    },
-    {
-      "id": "BJIryS_rE",
-      "position": {
-        "x": 308,
-        "y": 315
-      },
-      "type": "xod/core/not"
-    },
-    {
-      "id": "BJZtoU_HN",
-      "position": {
-        "x": 396,
-        "y": 315
-      },
-      "type": "@/on-true"
     },
     {
       "id": "H1A1kB_HN",
