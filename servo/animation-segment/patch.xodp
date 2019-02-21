@@ -250,7 +250,7 @@
         "x": 308,
         "y": 525
       },
-      "type": "@/animate-linear-unit"
+      "type": "@/animation-unit"
     },
     {
       "id": "r1AsTEuHE",

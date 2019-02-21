@@ -144,6 +144,28 @@
       }
     },
     {
+      "id": "Sk3t5N3rV",
+      "input": {
+        "nodeId": "SJhu9qtHN",
+        "pinKey": "Bk-GcqKrN"
+      },
+      "output": {
+        "nodeId": "BydtcNhHN",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sk5KqN3BV",
+      "input": {
+        "nodeId": "BydtcNhHN",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1A1kB_HN",
+        "pinKey": "rkyv-a5S4"
+      }
+    },
+    {
       "id": "Sk7EaicSE",
       "input": {
         "nodeId": "Sk7DdoYSE",
@@ -163,17 +185,6 @@
       "output": {
         "nodeId": "SJtvkH_B4",
         "pinKey": "H13434dH4"
-      }
-    },
-    {
-      "id": "r10D-TcHV",
-      "input": {
-        "nodeId": "SJhu9qtHN",
-        "pinKey": "Bk-GcqKrN"
-      },
-      "output": {
-        "nodeId": "H1A1kB_HN",
-        "pinKey": "rkyv-a5S4"
       }
     },
     {
@@ -246,15 +257,23 @@
       "id": "BJEi_EdBE",
       "position": {
         "x": 176,
-        "y": 630
+        "y": 525
       },
-      "type": "@/arm"
+      "type": "@/arm-simple"
+    },
+    {
+      "id": "BydtcNhHN",
+      "position": {
+        "x": 396,
+        "y": 315
+      },
+      "type": "xod/patch-nodes/jumper"
     },
     {
       "id": "ByvLMacS4",
       "position": {
         "x": 176,
-        "y": 420
+        "y": 315
       },
       "type": "xod/patch-nodes/jumper"
     },
@@ -264,14 +283,14 @@
         "x": 220,
         "y": 210
       },
-      "type": "@/animate-linear"
+      "type": "@/animation-segment"
     },
     {
       "id": "HJuBDDNSV",
       "label": "DEV'",
       "position": {
         "x": 176,
-        "y": 840
+        "y": 735
       },
       "type": "@/output-servo"
     },
@@ -321,9 +340,9 @@
       "id": "SJhu9qtHN",
       "position": {
         "x": 264,
-        "y": 525
+        "y": 420
       },
-      "type": "@/lock"
+      "type": "@/resource-lock"
     },
     {
       "id": "SJtvkH_B4",
@@ -337,7 +356,7 @@
       "id": "Sk7DdoYSE",
       "position": {
         "x": 352,
-        "y": 630
+        "y": 525
       },
       "type": "xod/core/defer"
     },
@@ -355,7 +374,7 @@
       "label": "ACK",
       "position": {
         "x": 264,
-        "y": 840
+        "y": 735
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -375,7 +394,7 @@
       "id": "r1KGkSdHV",
       "position": {
         "x": 308,
-        "y": 420
+        "y": 315
       },
       "type": "xod/core/continuously-pausable"
     },
@@ -384,7 +403,7 @@
       "label": "PLAY",
       "position": {
         "x": 352,
-        "y": 735
+        "y": 630
       },
       "type": "xod/patch-nodes/to-bus"
     },
@@ -393,7 +412,7 @@
       "label": "DONE",
       "position": {
         "x": 396,
-        "y": 840
+        "y": 735
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -402,7 +421,7 @@
       "label": "SET",
       "position": {
         "x": 352,
-        "y": 420
+        "y": 315
       },
       "type": "xod/patch-nodes/from-bus"
     }
