@@ -1,0 +1,211 @@
+{
+  "links": [
+    {
+      "id": "BJJ3MkX84",
+      "input": {
+        "nodeId": "HyA9Gy7UV",
+        "pinKey": "HJfLuAfL4"
+      },
+      "output": {
+        "nodeId": "HkxrMyXU4",
+        "pinKey": "HJpO_0G8N"
+      }
+    },
+    {
+      "id": "BJaVz1mUV",
+      "input": {
+        "nodeId": "SJlMzJQLE",
+        "pinKey": "SJrGuCf8N"
+      },
+      "output": {
+        "nodeId": "HJ0lMJmLE",
+        "pinKey": "SJ_FoCGLV"
+      }
+    },
+    {
+      "id": "BkIXzkm8N",
+      "input": {
+        "nodeId": "SJlMzJQLE",
+        "pinKey": "HJfLuAfL4"
+      },
+      "output": {
+        "nodeId": "HJ0lMJmLE",
+        "pinKey": "HJpO_0G8N"
+      }
+    },
+    {
+      "id": "HJNRM1XUE",
+      "input": {
+        "nodeId": "SkApG1784",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "HJp3f17LV",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "Hk-RfkXLV",
+      "input": {
+        "nodeId": "HJ0lMJmLE",
+        "pinKey": "SJrGuCf8N"
+      },
+      "output": {
+        "nodeId": "SkApG1784",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "S15Sfk784",
+      "input": {
+        "nodeId": "HkxrMyXU4",
+        "pinKey": "SJrGuCf8N"
+      },
+      "output": {
+        "nodeId": "SJlMzJQLE",
+        "pinKey": "SJ_FoCGLV"
+      }
+    },
+    {
+      "id": "SJbhMJXU4",
+      "input": {
+        "nodeId": "HyA9Gy7UV",
+        "pinKey": "SJrGuCf8N"
+      },
+      "output": {
+        "nodeId": "HkxrMyXU4",
+        "pinKey": "SJ_FoCGLV"
+      }
+    },
+    {
+      "id": "SklaG17U4",
+      "input": {
+        "nodeId": "HJp3f17LV",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "HyA9Gy7UV",
+        "pinKey": "SJ_FoCGLV"
+      }
+    },
+    {
+      "id": "rJ0HfJQUV",
+      "input": {
+        "nodeId": "HkxrMyXU4",
+        "pinKey": "HJfLuAfL4"
+      },
+      "output": {
+        "nodeId": "SJlMzJQLE",
+        "pinKey": "HJpO_0G8N"
+      }
+    },
+    {
+      "id": "rJd0MymI4",
+      "input": {
+        "nodeId": "SkApG1784",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "ryURM1mU4",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "ryMbfym8V",
+      "input": {
+        "nodeId": "HJ0lMJmLE",
+        "pinKey": "HJfLuAfL4"
+      },
+      "output": {
+        "nodeId": "SyeWGymUV",
+        "pinKey": "B1o4_CM8N"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B1Zx0-yQI4": "True"
+      },
+      "id": "HJ0lMJmLE",
+      "label": "state: Stop",
+      "position": {
+        "x": 88,
+        "y": 210
+      },
+      "type": "@/state"
+    },
+    {
+      "id": "HJp3f17LV",
+      "position": {
+        "x": 572,
+        "y": 525
+      },
+      "type": "xod/core/defer"
+    },
+    {
+      "boundLiterals": {
+        "B1Zx0-yQI4": "False",
+        "Byg0W1QL4": "True"
+      },
+      "id": "HkxrMyXU4",
+      "label": "state: Go",
+      "position": {
+        "x": 88,
+        "y": 420
+      },
+      "type": "@/state"
+    },
+    {
+      "boundLiterals": {
+        "B1Zx0-yQI4": "False",
+        "BkxgR-1XUV": "True",
+        "Byg0W1QL4": "False"
+      },
+      "id": "HyA9Gy7UV",
+      "label": "state: Slow Down",
+      "position": {
+        "x": 88,
+        "y": 525
+      },
+      "type": "@/state"
+    },
+    {
+      "boundLiterals": {
+        "B1Zx0-yQI4": "True",
+        "BkxgR-1XUV": "True"
+      },
+      "id": "SJlMzJQLE",
+      "label": "state: Get ready",
+      "position": {
+        "x": 88,
+        "y": 315
+      },
+      "type": "@/state"
+    },
+    {
+      "id": "SkApG1784",
+      "position": {
+        "x": 308,
+        "y": 105
+      },
+      "type": "xod/core/any"
+    },
+    {
+      "id": "SyeWGymUV",
+      "position": {
+        "x": 88,
+        "y": 0
+      },
+      "type": "@/mutex"
+    },
+    {
+      "id": "ryURM1mU4",
+      "position": {
+        "x": 308,
+        "y": 0
+      },
+      "type": "xod/core/boot"
+    }
+  ]
+}
