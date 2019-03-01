@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "HJCxcAzIN",
+      "position": {
+        "x": 132,
+        "y": 315
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SkH-q0GIV",
+      "position": {
+        "x": 132,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "SylxcAMUE",
+      "position": {
+        "x": 264,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "r1819Rf8E",
+      "label": "RST",
+      "position": {
+        "x": 132,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "r1skcAGUV",
+      "position": {
+        "x": 220,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ry_ecCMU4",
+      "position": {
+        "x": 264,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/variadic-1"
+    }
+  ]
+}

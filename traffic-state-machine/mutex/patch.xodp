@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {
+      "id": "B1o4_CM8N",
+      "position": {
+        "x": 132,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "Sy-rOCM84",
+      "position": {
+        "x": 132,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

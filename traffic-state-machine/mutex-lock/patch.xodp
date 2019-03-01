@@ -1,0 +1,97 @@
+{
+  "links": [
+    {
+      "id": "rkTQoRzI4",
+      "input": {
+        "nodeId": "Sy809RfIN",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SyG0qRGUN",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ByaA5AMIE",
+      "label": "ENTR",
+      "position": {
+        "x": 220,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "HJ6MsAfU4",
+      "label": "OUT",
+      "position": {
+        "x": 132,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HkbQjCzIE",
+      "position": {
+        "x": 176,
+        "y": 105
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "S1eZsRfL4",
+      "label": "EXIT",
+      "position": {
+        "x": 264,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "SJUfoCz8N",
+      "label": "IN",
+      "position": {
+        "x": 132,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Sy809RfIN",
+      "label": "MX'",
+      "position": {
+        "x": 88,
+        "y": 210
+      },
+      "type": "@/output-mutex"
+    },
+    {
+      "id": "SyG0qRGUN",
+      "label": "MX",
+      "position": {
+        "x": 88,
+        "y": 0
+      },
+      "type": "@/input-mutex"
+    },
+    {
+      "id": "rJ5yiCGIV",
+      "label": "ENTR'",
+      "position": {
+        "x": 220,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rkxgbiCfUE",
+      "label": "EXIT'",
+      "position": {
+        "x": 264,
+        "y": 210
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}
