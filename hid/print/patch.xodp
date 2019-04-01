@@ -1,0 +1,68 @@
+{
+  "description": "An HID keyboard character key sequence",
+  "nodes": [
+    {
+      "id": "BJJOOY1Y4",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulses when the print is done",
+      "id": "By7v_YJFV",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "String to send like it was typed by a human. Note, the node knows nothing about the current OS language, Caps Lock state, and input focus. The print will be correct only when the EN layout with no Caps Lock is active.",
+      "id": "HkESdY1YN",
+      "label": "S",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "id": "SJdVOFktV",
+      "label": "DEV'",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/output-keyboard"
+    },
+    {
+      "description": "The keyboard device",
+      "id": "SJsQutkFE",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "@/input-keyboard"
+    },
+    {
+      "description": "Send the key sequence defined by `S` at the maximal possible rate.",
+      "id": "SycI_t1tE",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

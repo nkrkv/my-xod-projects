@@ -1,0 +1,39 @@
+{
+  "description": "An object representing the virtual keyboard device.",
+  "nodes": [
+    {
+      "description": "The keyboard device",
+      "id": "Bk4gUYJY4",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Configures board peripherals to start HID simulation. Trigger once before keyboard usage.",
+      "id": "H1sCrKktN",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "SyU-UtJt4",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}
