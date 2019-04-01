@@ -1,0 +1,6 @@
+{
+  "description": "Make your Arduino pretend to be a keyboard",
+  "license": "AGPL-3.0",
+  "name": "hid",
+  "version": "1.0.0"
+}

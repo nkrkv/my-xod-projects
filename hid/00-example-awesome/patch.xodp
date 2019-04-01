@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "content": "Click a button on port D11 to print “This is awesome” like a keyboard.\n\n`delay`s are here just to add some drama.",
+      "id": "HkZ2aF1FV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 5
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "BJTncYytE",
+      "input": {
+        "nodeId": "HyjDtYktV",
+        "pinKey": "SycI_t1tE"
+      },
+      "output": {
+        "nodeId": "SJJ3qKkF4",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "SJ0YYYJKN",
+      "input": {
+        "nodeId": "H1buKtJFE",
+        "pinKey": "SJsQutkFE"
+      },
+      "output": {
+        "nodeId": "HyjDtYktV",
+        "pinKey": "SJdVOFktV"
+      }
+    },
+    {
+      "id": "Skup5F1FN",
+      "input": {
+        "nodeId": "rkya9tJtN",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "HyjDtYktV",
+        "pinKey": "By7v_YJFV"
+      }
+    },
+    {
+      "id": "Sy5acKyFN",
+      "input": {
+        "nodeId": "H1buKtJFE",
+        "pinKey": "SycI_t1tE"
+      },
+      "output": {
+        "nodeId": "rkya9tJtN",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "r1on9tJtN",
+      "input": {
+        "nodeId": "SJJ3qKkF4",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "SyEvtFyYV",
+        "pinKey": "By7v_YJFV"
+      }
+    },
+    {
+      "id": "rJcjYF1Y4",
+      "input": {
+        "nodeId": "SyEvtFyYV",
+        "pinKey": "SycI_t1tE"
+      },
+      "output": {
+        "nodeId": "Hy4iFKkFN",
+        "pinKey": "BJ--G1tI-"
+      }
+    },
+    {
+      "id": "rJsKKY1KN",
+      "input": {
+        "nodeId": "SyEvtFyYV",
+        "pinKey": "SJsQutkFE"
+      },
+      "output": {
+        "nodeId": "rJyPKt1t4",
+        "pinKey": "Bk4gUYJY4"
+      }
+    },
+    {
+      "id": "ryTYYF1FV",
+      "input": {
+        "nodeId": "HyjDtYktV",
+        "pinKey": "SJsQutkFE"
+      },
+      "output": {
+        "nodeId": "SyEvtFyYV",
+        "pinKey": "SJdVOFktV"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "HkESdY1YN": "\"awesome\""
+      },
+      "id": "H1buKtJFE",
+      "position": {
+        "units": "slots",
+        "x": -3,
+        "y": 3
+      },
+      "type": "@/print"
+    },
+    {
+      "boundLiterals": {
+        "ByNiWkt8Z": "D11"
+      },
+      "id": "Hy4iFKkFN",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": -2
+      },
+      "type": "xod/common-hardware/button"
+    },
+    {
+      "boundLiterals": {
+        "HkESdY1YN": "\"is \""
+      },
+      "id": "HyjDtYktV",
+      "position": {
+        "units": "slots",
+        "x": -3,
+        "y": 1
+      },
+      "type": "@/print"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "0.2"
+      },
+      "id": "SJJ3qKkF4",
+      "position": {
+        "units": "slots",
+        "x": -2,
+        "y": 0
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "boundLiterals": {
+        "HkESdY1YN": "\"This \""
+      },
+      "id": "SyEvtFyYV",
+      "position": {
+        "units": "slots",
+        "x": -3,
+        "y": -1
+      },
+      "type": "@/print"
+    },
+    {
+      "id": "rJyPKt1t4",
+      "position": {
+        "units": "slots",
+        "x": -3,
+        "y": -3
+      },
+      "type": "@/keyboard"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "0.5"
+      },
+      "id": "rkya9tJtN",
+      "position": {
+        "units": "slots",
+        "x": -2,
+        "y": 2
+      },
+      "type": "xod/core/delay"
+    }
+  ]
+}
