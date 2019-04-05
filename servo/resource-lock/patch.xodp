@@ -1,6 +1,16 @@
 {
   "nodes": [
     {
+      "id": "BJe3KlrtV",
+      "label": "RES'",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-t1"
+    },
+    {
       "id": "BJsBc5FHE",
       "label": "OUT",
       "position": {
@@ -40,6 +50,16 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "id": "HJXoYlSKN",
+      "label": "RES",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-t1"
+    },
+    {
       "id": "HyESq9FHN",
       "label": "EXIT'",
       "position": {
@@ -68,26 +88,6 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
-    },
-    {
-      "id": "SJtDq5KSE",
-      "label": "DEV'",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 2
-      },
-      "type": "@/output-servo-device"
-    },
-    {
-      "id": "ryRL99YBV",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 0
-      },
-      "type": "@/input-servo-device"
     }
   ]
 }
