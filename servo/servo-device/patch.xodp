@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "750"
+      },
+      "id": "ByJ9IwVBV",
+      "label": "Pmin",
+      "position": {
+        "units": "slots",
+        "x": -6.5,
+        "y": -4.15
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "2250"
+      },
+      "id": "H15qLDVSE",
+      "label": "Pmax",
+      "position": {
+        "units": "slots",
+        "x": -5.2,
+        "y": -4.15
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "HJmZvD4SE",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -9.1,
+        "y": -1.05
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "HkTWDPNBV",
+      "position": {
+        "units": "slots",
+        "x": -9.1,
+        "y": -2.1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "HyNOLPVB4",
+      "label": "PORT",
+      "position": {
+        "units": "slots",
+        "x": -9.1,
+        "y": -4.15
+      },
+      "type": "xod/patch-nodes/input-port"
+    }
+  ]
+}

@@ -4,8 +4,9 @@
       "id": "BJsBc5FHE",
       "label": "OUT",
       "position": {
-        "x": 132,
-        "y": 210
+        "units": "slots",
+        "x": 3.9,
+        "y": 2.05
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -13,7 +14,8 @@
       "id": "Bk-GcqKrN",
       "label": "EXIT",
       "position": {
-        "x": 220,
+        "units": "slots",
+        "x": 6.45,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -21,8 +23,9 @@
     {
       "id": "BkMOqqtSE",
       "position": {
-        "x": 88,
-        "y": 105
+        "units": "slots",
+        "x": 2.6,
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -30,8 +33,9 @@
       "id": "H1jVq9FrE",
       "label": "ENTR'",
       "position": {
-        "x": 176,
-        "y": 210
+        "units": "slots",
+        "x": 5.15,
+        "y": 2.05
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -39,8 +43,9 @@
       "id": "HyESq9FHN",
       "label": "EXIT'",
       "position": {
-        "x": 220,
-        "y": 210
+        "units": "slots",
+        "x": 6.45,
+        "y": 2.05
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -48,7 +53,8 @@
       "id": "S15-cqKrV",
       "label": "ENTR",
       "position": {
-        "x": 176,
+        "units": "slots",
+        "x": 5.15,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -57,7 +63,8 @@
       "id": "S1KM9qFBE",
       "label": "IN",
       "position": {
-        "x": 132,
+        "units": "slots",
+        "x": 3.9,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -66,19 +73,21 @@
       "id": "SJtDq5KSE",
       "label": "DEV'",
       "position": {
-        "x": 88,
-        "y": 210
+        "units": "slots",
+        "x": 2.6,
+        "y": 2.05
       },
-      "type": "@/output-servo"
+      "type": "@/output-servo-device"
     },
     {
       "id": "ryRL99YBV",
       "label": "DEV",
       "position": {
-        "x": 88,
+        "units": "slots",
+        "x": 2.6,
         "y": 0
       },
-      "type": "@/input-servo"
+      "type": "@/input-servo-device"
     }
   ]
 }

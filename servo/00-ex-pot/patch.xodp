@@ -32,24 +32,27 @@
       },
       "id": "BJBx5w4rN",
       "position": {
-        "x": 308,
-        "y": 315
+        "units": "slots",
+        "x": 9.05,
+        "y": 3.05
       },
-      "type": "@/servo"
+      "type": "@/servo-device"
     },
     {
       "id": "SJsDMIOrV",
       "position": {
-        "x": 484,
-        "y": 315
+        "units": "slots",
+        "x": 14.2,
+        "y": 3.05
       },
       "type": "@/arm-simple"
     },
     {
       "id": "r1TbqP4HV",
       "position": {
-        "x": 528,
-        "y": 105
+        "units": "slots",
+        "x": 15.55,
+        "y": 1
       },
       "type": "xod/common-hardware/pot"
     }

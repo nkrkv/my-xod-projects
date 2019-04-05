@@ -4,8 +4,9 @@
       "id": "H1siUVdSV",
       "label": "ACK",
       "position": {
-        "x": 132,
-        "y": 210
+        "units": "slots",
+        "x": 3.9,
+        "y": 2.05
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -13,25 +14,28 @@
       "id": "SkuVINuHV",
       "label": "DEV'",
       "position": {
-        "x": 88,
-        "y": 210
+        "units": "slots",
+        "x": 2.6,
+        "y": 2.05
       },
-      "type": "@/output-servo"
+      "type": "@/output-servo-device"
     },
     {
       "id": "r1I7U4Or4",
       "label": "DEV",
       "position": {
-        "x": 88,
+        "units": "slots",
+        "x": 2.6,
         "y": 0
       },
-      "type": "@/input-servo"
+      "type": "@/input-servo-device"
     },
     {
       "id": "rkzIUV_S4",
       "label": "SET",
       "position": {
-        "x": 132,
+        "units": "slots",
+        "x": 3.9,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -39,8 +43,9 @@
     {
       "id": "ryBuEa9SE",
       "position": {
-        "x": 132,
-        "y": 105
+        "units": "slots",
+        "x": 3.9,
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     }

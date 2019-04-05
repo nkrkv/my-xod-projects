@@ -248,7 +248,8 @@
       "id": "B17PETi9H4",
       "label": "PLAY",
       "position": {
-        "x": 220,
+        "units": "slots",
+        "x": 6.45,
         "y": 0
       },
       "type": "xod/patch-nodes/from-bus"
@@ -256,32 +257,36 @@
     {
       "id": "BJEi_EdBE",
       "position": {
-        "x": 176,
-        "y": 525
+        "units": "slots",
+        "x": 5.15,
+        "y": 5.1
       },
       "type": "@/arm-simple"
     },
     {
       "id": "BydtcNhHN",
       "position": {
-        "x": 396,
-        "y": 315
+        "units": "slots",
+        "x": 11.65,
+        "y": 3.05
       },
       "type": "xod/patch-nodes/jumper"
     },
     {
       "id": "ByvLMacS4",
       "position": {
-        "x": 176,
-        "y": 315
+        "units": "slots",
+        "x": 5.15,
+        "y": 3.05
       },
       "type": "xod/patch-nodes/jumper"
     },
     {
       "id": "H1A1kB_HN",
       "position": {
-        "x": 220,
-        "y": 210
+        "units": "slots",
+        "x": 6.45,
+        "y": 2.05
       },
       "type": "@/animation-segment"
     },
@@ -289,10 +294,11 @@
       "id": "HJuBDDNSV",
       "label": "DEV'",
       "position": {
-        "x": 176,
-        "y": 735
+        "units": "slots",
+        "x": 5.15,
+        "y": 7.2
       },
-      "type": "@/output-servo"
+      "type": "@/output-servo-device"
     },
     {
       "boundLiterals": {
@@ -301,8 +307,9 @@
       "id": "HkvdPw4S4",
       "label": "α",
       "position": {
-        "x": 264,
-        "y": -105
+        "units": "slots",
+        "x": 7.8,
+        "y": -1.05
       },
       "type": "xod/patch-nodes/input-number"
     },
@@ -310,8 +317,9 @@
       "id": "HybPNai9rV",
       "label": "PLAY",
       "position": {
-        "x": 396,
-        "y": 105
+        "units": "slots",
+        "x": 11.65,
+        "y": 1
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -322,8 +330,9 @@
       "id": "S1n9Yv4r4",
       "label": "ω",
       "position": {
-        "x": 308,
-        "y": -105
+        "units": "slots",
+        "x": 9.05,
+        "y": -1.05
       },
       "type": "xod/patch-nodes/input-number"
     },
@@ -331,7 +340,8 @@
       "id": "SJT935KBE",
       "label": "SET",
       "position": {
-        "x": 352,
+        "units": "slots",
+        "x": 10.35,
         "y": 0
       },
       "type": "xod/patch-nodes/to-bus"
@@ -339,24 +349,27 @@
     {
       "id": "SJhu9qtHN",
       "position": {
-        "x": 264,
-        "y": 420
+        "units": "slots",
+        "x": 7.8,
+        "y": 4.1
       },
       "type": "@/resource-lock"
     },
     {
       "id": "SJtvkH_B4",
       "position": {
-        "x": 176,
-        "y": 105
+        "units": "slots",
+        "x": 5.15,
+        "y": 1
       },
       "type": "@/position"
     },
     {
       "id": "Sk7DdoYSE",
       "position": {
-        "x": 352,
-        "y": 525
+        "units": "slots",
+        "x": 10.35,
+        "y": 5.1
       },
       "type": "xod/core/defer"
     },
@@ -364,17 +377,19 @@
       "id": "SkC4wvEr4",
       "label": "DEV",
       "position": {
-        "x": 176,
-        "y": -105
+        "units": "slots",
+        "x": 5.15,
+        "y": -1.05
       },
-      "type": "@/input-servo"
+      "type": "@/input-servo-device"
     },
     {
       "id": "SyOHHVOrV",
       "label": "ACK",
       "position": {
-        "x": 264,
-        "y": 735
+        "units": "slots",
+        "x": 7.8,
+        "y": 7.2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -385,16 +400,18 @@
       "id": "r11svP4H4",
       "label": "SET",
       "position": {
-        "x": 352,
-        "y": -105
+        "units": "slots",
+        "x": 10.35,
+        "y": -1.05
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
       "id": "r1KGkSdHV",
       "position": {
-        "x": 308,
-        "y": 315
+        "units": "slots",
+        "x": 9.05,
+        "y": 3.05
       },
       "type": "xod/core/continuously-pausable"
     },
@@ -402,8 +419,9 @@
       "id": "r1wV6o5SE",
       "label": "PLAY",
       "position": {
-        "x": 352,
-        "y": 630
+        "units": "slots",
+        "x": 10.35,
+        "y": 6.15
       },
       "type": "xod/patch-nodes/to-bus"
     },
@@ -411,8 +429,9 @@
       "id": "ryCUDDES4",
       "label": "DONE",
       "position": {
-        "x": 396,
-        "y": 735
+        "units": "slots",
+        "x": 11.65,
+        "y": 7.2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -420,8 +439,9 @@
       "id": "ryW6cncKHE",
       "label": "SET",
       "position": {
-        "x": 352,
-        "y": 315
+        "units": "slots",
+        "x": 10.35,
+        "y": 3.05
       },
       "type": "xod/patch-nodes/from-bus"
     }

@@ -7,7 +7,8 @@
       "id": "B1lXALNOS4",
       "label": "α",
       "position": {
-        "x": 44,
+        "units": "slots",
+        "x": 1.25,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -16,10 +17,11 @@
       "id": "HkfXAUEdrN",
       "label": "DEV",
       "position": {
+        "units": "slots",
         "x": 0,
         "y": 0
       },
-      "type": "@/input-servo"
+      "type": "@/input-servo-device"
     },
     {
       "boundLiterals": {
@@ -28,7 +30,8 @@
       "id": "S1Q7C8NdBV",
       "label": "SET",
       "position": {
-        "x": 88,
+        "units": "slots",
+        "x": 2.6,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -37,8 +40,9 @@
       "id": "S1wmRINuHV",
       "label": "ACK",
       "position": {
-        "x": 44,
-        "y": 315
+        "units": "slots",
+        "x": 1.25,
+        "y": 3.05
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -46,16 +50,18 @@
       "id": "SkQ0INuHE",
       "label": "DEV'",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 315
+        "y": 3.05
       },
-      "type": "@/output-servo"
+      "type": "@/output-servo-device"
     },
     {
       "id": "r14QALE_rE",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 210
+        "y": 2.05
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     }

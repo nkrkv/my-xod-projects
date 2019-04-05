@@ -118,16 +118,18 @@
       },
       "id": "B14ELQacHN",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 630
+        "y": 6.15
       },
       "type": "@/arm-smooth"
     },
     {
       "id": "B1XvXT5H4",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 210
+        "y": 2.05
       },
       "type": "@/relax"
     },
@@ -138,8 +140,9 @@
       },
       "id": "HyeE8QpcHV",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 525
+        "y": 5.1
       },
       "type": "@/arm-smooth"
     },
@@ -151,10 +154,11 @@
       },
       "id": "S1-NLma9B4",
       "position": {
+        "units": "slots",
         "x": 0,
         "y": 0
       },
-      "type": "@/servo"
+      "type": "@/servo-device"
     },
     {
       "boundLiterals": {
@@ -162,8 +166,9 @@
       },
       "id": "rJELmpcSN",
       "position": {
-        "x": 44,
-        "y": 105
+        "units": "slots",
+        "x": 1.25,
+        "y": 1
       },
       "type": "xod/common-hardware/button"
     },
@@ -175,8 +180,9 @@
       },
       "id": "rkMVUQTqSN",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 315
+        "y": 3.05
       },
       "type": "@/arm-smooth"
     },
@@ -187,8 +193,9 @@
       },
       "id": "rkmVUQaqBV",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 420
+        "y": 4.1
       },
       "type": "@/arm-smooth"
     }
