@@ -374,7 +374,7 @@
     },
     {
       "boundLiterals": {
-        "__out__": "Continuously"
+        "__out__": "Never"
       },
       "id": "r11svP4H4",
       "label": "DO",

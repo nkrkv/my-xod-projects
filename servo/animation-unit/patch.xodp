@@ -50,7 +50,7 @@
       "label": "RATE",
       "position": {
         "units": "slots",
-        "x": 3.9,
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
