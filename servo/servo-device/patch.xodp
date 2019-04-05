@@ -8,8 +8,8 @@
       "label": "Pmin",
       "position": {
         "units": "slots",
-        "x": -6.5,
-        "y": -4.15
+        "x": -8,
+        "y": -4
       },
       "type": "xod/patch-nodes/input-number"
     },
@@ -21,8 +21,8 @@
       "label": "Pmax",
       "position": {
         "units": "slots",
-        "x": -5.2,
-        "y": -4.15
+        "x": -7,
+        "y": -4
       },
       "type": "xod/patch-nodes/input-number"
     },
@@ -31,8 +31,8 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": -9.1,
-        "y": -1.05
+        "x": -9,
+        "y": -2
       },
       "type": "xod/patch-nodes/output-self"
     },
@@ -40,8 +40,8 @@
       "id": "HkTWDPNBV",
       "position": {
         "units": "slots",
-        "x": -9.1,
-        "y": -2.1
+        "x": -9,
+        "y": -3
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -50,8 +50,8 @@
       "label": "PORT",
       "position": {
         "units": "slots",
-        "x": -9.1,
-        "y": -4.15
+        "x": -9,
+        "y": -4
       },
       "type": "xod/patch-nodes/input-port"
     }

@@ -8,7 +8,7 @@
       "label": "α",
       "position": {
         "units": "slots",
-        "x": 1.25,
+        "x": 1,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -31,7 +31,7 @@
       "label": "SET",
       "position": {
         "units": "slots",
-        "x": 2.6,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -41,8 +41,8 @@
       "label": "ACK",
       "position": {
         "units": "slots",
-        "x": 1.25,
-        "y": 3.05
+        "x": 1,
+        "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -52,7 +52,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 3.05
+        "y": 2
       },
       "type": "@/output-servo-device"
     },
@@ -61,7 +61,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 2.05
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     }

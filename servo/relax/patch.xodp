@@ -5,8 +5,8 @@
       "label": "ACK",
       "position": {
         "units": "slots",
-        "x": 3.9,
-        "y": 2.05
+        "x": 4,
+        "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -15,8 +15,8 @@
       "label": "DEV'",
       "position": {
         "units": "slots",
-        "x": 2.6,
-        "y": 2.05
+        "x": 3,
+        "y": 2
       },
       "type": "@/output-servo-device"
     },
@@ -25,7 +25,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 2.6,
+        "x": 3,
         "y": 0
       },
       "type": "@/input-servo-device"
@@ -35,7 +35,7 @@
       "label": "SET",
       "position": {
         "units": "slots",
-        "x": 3.9,
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"

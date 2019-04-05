@@ -116,7 +116,7 @@
         "x": 6,
         "y": 1
       },
-      "type": "@/arm-simple"
+      "type": "@/rotate"
     }
   ]
 }

@@ -5,8 +5,8 @@
       "label": "DEV'",
       "position": {
         "units": "slots",
-        "x": 2.6,
-        "y": 2.05
+        "x": 3,
+        "y": 2
       },
       "type": "@/output-servo-device"
     },
@@ -15,7 +15,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 2.6,
+        "x": 3,
         "y": 0
       },
       "type": "@/input-servo-device"
@@ -26,8 +26,8 @@
       "label": "α",
       "position": {
         "units": "slots",
-        "x": 5.15,
-        "y": 2.05
+        "x": 5,
+        "y": 2
       },
       "type": "xod/patch-nodes/output-number"
     },
@@ -36,7 +36,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 5.15,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -45,7 +45,7 @@
       "id": "r1AlaE_HV",
       "position": {
         "units": "slots",
-        "x": 2.6,
+        "x": 3,
         "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"

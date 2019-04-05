@@ -120,16 +120,16 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 6.15
+        "y": 6
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     },
     {
       "id": "B1XvXT5H4",
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 2.05
+        "y": 2
       },
       "type": "@/relax"
     },
@@ -142,9 +142,9 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 5.1
+        "y": 5
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     },
     {
       "boundLiterals": {
@@ -167,7 +167,7 @@
       "id": "rJELmpcSN",
       "position": {
         "units": "slots",
-        "x": 1.25,
+        "x": 1,
         "y": 1
       },
       "type": "xod/common-hardware/button"
@@ -182,9 +182,9 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 3.05
+        "y": 3
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     },
     {
       "boundLiterals": {
@@ -195,9 +195,9 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 4.1
+        "y": 4
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     }
   ]
 }

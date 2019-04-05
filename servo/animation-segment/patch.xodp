@@ -170,16 +170,18 @@
     {
       "id": "BJSKA65HV",
       "position": {
-        "x": 220,
-        "y": 420
+        "units": "slots",
+        "x": 7,
+        "y": 4
       },
       "type": "xod/core/divide"
     },
     {
       "id": "Bk--RE_rV",
       "position": {
-        "x": -44,
-        "y": 840
+        "units": "slots",
+        "x": 2,
+        "y": 8
       },
       "type": "xod/patch-nodes/output-number"
     },
@@ -190,7 +192,8 @@
       "id": "BkE3a4uHV",
       "label": "TO",
       "position": {
-        "x": 132,
+        "units": "slots",
+        "x": 6,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -199,7 +202,8 @@
       "id": "H1010NuBE",
       "label": "REV",
       "position": {
-        "x": 352,
+        "units": "slots",
+        "x": 10,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -210,16 +214,18 @@
       },
       "id": "HJ8JHB_r4",
       "position": {
-        "x": -44,
-        "y": 735
+        "units": "slots",
+        "x": 2,
+        "y": 7
       },
       "type": "xod/math/map"
     },
     {
       "id": "HJBORpqB4",
       "position": {
-        "x": 264,
-        "y": 210
+        "units": "slots",
+        "x": 8,
+        "y": 2
       },
       "type": "xod/core/subtract"
     },
@@ -230,7 +236,8 @@
       "id": "HJIa6E_r4",
       "label": "RATE",
       "position": {
-        "x": 220,
+        "units": "slots",
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -239,7 +246,8 @@
       "id": "S1Rp6EuBE",
       "label": "PLAY",
       "position": {
-        "x": 396,
+        "units": "slots",
+        "x": 11,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -247,8 +255,9 @@
     {
       "id": "SkBRVSuH4",
       "position": {
-        "x": 308,
-        "y": 525
+        "units": "slots",
+        "x": 9,
+        "y": 5
       },
       "type": "@/animation-unit"
     },
@@ -256,7 +265,8 @@
       "id": "r1AsTEuHE",
       "label": "FROM",
       "position": {
-        "x": 88,
+        "units": "slots",
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -265,7 +275,8 @@
       "id": "rJIn0NdBV",
       "label": "FWD",
       "position": {
-        "x": 440,
+        "units": "slots",
+        "x": 12,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -273,8 +284,9 @@
     {
       "id": "rk6OAp9r4",
       "position": {
-        "x": 264,
-        "y": 315
+        "units": "slots",
+        "x": 8,
+        "y": 3
       },
       "type": "xod/math/abs"
     },
@@ -282,8 +294,9 @@
       "id": "rkyv-a5S4",
       "label": "DONE",
       "position": {
-        "x": 396,
-        "y": 840
+        "units": "slots",
+        "x": 11,
+        "y": 8
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -291,8 +304,9 @@
       "id": "ry6X04drV",
       "label": "ACT",
       "position": {
-        "x": 352,
-        "y": 840
+        "units": "slots",
+        "x": 10,
+        "y": 8
       },
       "type": "xod/patch-nodes/output-boolean"
     }

@@ -97,7 +97,7 @@
       "id": "BJfKV8_B4",
       "position": {
         "units": "slots",
-        "x": 7.8,
+        "x": 7,
         "y": 1
       },
       "type": "xod/common-hardware/button"
@@ -110,10 +110,10 @@
       "id": "HJSguwVBN",
       "position": {
         "units": "slots",
-        "x": 3.9,
-        "y": 4.1
+        "x": 4,
+        "y": 4
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     },
     {
       "boundLiterals": {
@@ -124,7 +124,7 @@
       "id": "S1DkdPVHV",
       "position": {
         "units": "slots",
-        "x": 3.9,
+        "x": 4,
         "y": 0
       },
       "type": "@/servo-device"
@@ -138,10 +138,10 @@
       "id": "SkR1uwVHN",
       "position": {
         "units": "slots",
-        "x": 3.9,
-        "y": 2.05
+        "x": 4,
+        "y": 2
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     },
     {
       "boundLiterals": {
@@ -151,10 +151,10 @@
       "id": "rJZxuw4SE",
       "position": {
         "units": "slots",
-        "x": 3.9,
-        "y": 3.05
+        "x": 4,
+        "y": 3
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     },
     {
       "boundLiterals": {
@@ -163,10 +163,10 @@
       "id": "rJtl_v4BV",
       "position": {
         "units": "slots",
-        "x": 3.9,
-        "y": 5.1
+        "x": 4,
+        "y": 5
       },
-      "type": "@/arm-smooth"
+      "type": "@/rotate-slow"
     }
   ]
 }
