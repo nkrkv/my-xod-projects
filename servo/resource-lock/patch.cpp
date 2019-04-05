@@ -15,22 +15,18 @@ void evaluate(Context ctx) {
     bool justEntered = false;
     auto nodeId = getNodeId(ctx);
 
-    if (isInputDirty<input_ENTR>(ctx) && res->lockedFor == 0) {
-        res->lockedFor = nodeId;
+    if (isInputDirty<input_ENTR>(ctx) && res->lockFor(nodeId)) {
         justEntered = true;
     }
 
-    if (isInputDirty<input_EXIT>(ctx)
-        && (res->lockedFor == 0 || res->lockedFor == nodeId)) {
-
+    if (isInputDirty<input_EXIT>(ctx) && res->unlock(nodeId)) {
         justEntered = false;
-        res->lockedFor = 0;
         emitValue<output_EXITU0027>(ctx, 1);
     }
 
     if (justEntered)
         emitValue<output_ENTRU0027>(ctx, 1);
 
-    if (isInputDirty<input_IN>(ctx) && res->lockedFor == nodeId)
+    if (isInputDirty<input_IN>(ctx) && res->isLockedFor(nodeId))
         emitValue<output_OUT>(ctx, 1);
 }

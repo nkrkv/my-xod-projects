@@ -14,7 +14,7 @@ void evaluate(Context ctx) {
     if (!isInputDirty<input_DO>(ctx))
         return;
 
-    xservo->lockedFor = 0;
+    xservo->forceUnlock();
     xservo->servo.detach();
     emitValue<output_DONE>(ctx, 1);
 }
