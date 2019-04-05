@@ -1,9 +1,11 @@
 {
+  "description": "Rotates a servo shaft to the given angular position.",
   "nodes": [
     {
       "boundLiterals": {
         "__out__": "0.5"
       },
+      "description": "The target shaft rotation position in the [0; 1] range. The real angle/pulse values corresponding to the 0 and 1 boundaries are defined by the servo device node.",
       "id": "B1lXALNOS4",
       "label": "VAL",
       "position": {
@@ -14,6 +16,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "The servo device",
       "id": "HkfXAUEdrN",
       "label": "DEV",
       "position": {
@@ -27,6 +30,7 @@
       "boundLiterals": {
         "__out__": "Never"
       },
+      "description": "Set the new target rotation value for the given device.",
       "id": "S1Q7C8NdBV",
       "label": "DO",
       "position": {
@@ -37,6 +41,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulses to acknowledge the new target. It will take time for the servo to complete the order.",
       "id": "S1wmRINuHV",
       "label": "ACK",
       "position": {
@@ -47,6 +52,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "The servo device",
       "id": "SkQ0INuHE",
       "label": "DEV'",
       "position": {

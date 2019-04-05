@@ -1,4 +1,5 @@
 {
+  "description": "Animates a number making it run from one boundary to another with the given rate.",
   "links": [
     {
       "id": "Bkct0p9r4",
@@ -177,6 +178,7 @@
       "type": "xod/core/divide"
     },
     {
+      "description": "The current value of number animation.",
       "id": "Bk--RE_rV",
       "position": {
         "units": "slots",
@@ -189,6 +191,7 @@
       "boundLiterals": {
         "__out__": "1"
       },
+      "description": "The final value of `OUT` in the animation.",
       "id": "BkE3a4uHV",
       "label": "TO",
       "position": {
@@ -199,6 +202,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "Quickly rewind `OUT` to `FROM` and stop the animation",
       "id": "H1010NuBE",
       "label": "REV",
       "position": {
@@ -233,6 +237,7 @@
       "boundLiterals": {
         "__out__": "1"
       },
+      "description": "Defines the animation speed: amount of `OUT` change per second",
       "id": "HJIa6E_r4",
       "label": "RATE",
       "position": {
@@ -243,6 +248,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "Set `OUT` to `FROM` and start animation. If the animation is in progress already it is cancelled, the new one is started.",
       "id": "S1Rp6EuBE",
       "label": "PLAY",
       "position": {
@@ -262,6 +268,7 @@
       "type": "@/animation-unit"
     },
     {
+      "description": "The starting value of `OUT` in the animation.",
       "id": "r1AsTEuHE",
       "label": "FROM",
       "position": {
@@ -272,6 +279,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "Quickly forward `OUT` to `TO` and stop the animation.",
       "id": "rJIn0NdBV",
       "label": "FWD",
       "position": {
@@ -291,6 +299,7 @@
       "type": "xod/math/abs"
     },
     {
+      "description": "Pulses when the animation completes, that is the `OUT` value reaches the end. The pulse is not emitted when the animation is stopped with `REV` or `FWD`.",
       "id": "rkyv-a5S4",
       "label": "DONE",
       "position": {
@@ -301,6 +310,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Active. Outputs whether the animation is in progress.",
       "id": "ry6X04drV",
       "label": "ACT",
       "position": {

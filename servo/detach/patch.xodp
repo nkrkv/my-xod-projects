@@ -1,6 +1,8 @@
 {
+  "description": "Detaches a servo from the signal line effectively removing torque from the motor.",
   "nodes": [
     {
+      "description": "Pulses when detached successfully",
       "id": "H1siUVdSV",
       "label": "DONE",
       "position": {
@@ -11,6 +13,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "The servo device",
       "id": "SkuVINuHV",
       "label": "DEV'",
       "position": {
@@ -21,6 +24,7 @@
       "type": "@/output-servo-device"
     },
     {
+      "description": "The servo device",
       "id": "r1I7U4Or4",
       "label": "DEV",
       "position": {
@@ -31,6 +35,7 @@
       "type": "@/input-servo-device"
     },
     {
+      "description": "Do detach",
       "id": "rkzIUV_S4",
       "label": "DO",
       "position": {

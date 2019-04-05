@@ -1,9 +1,11 @@
 {
+  "description": "Represents an RC hobby servo device",
   "nodes": [
     {
       "boundLiterals": {
         "__out__": "750"
       },
+      "description": "The minimal rated pulse width (in µS) ",
       "id": "ByJ9IwVBV",
       "label": "Pmin",
       "position": {
@@ -17,6 +19,7 @@
       "boundLiterals": {
         "__out__": "2250"
       },
+      "description": "The maximal rated pulse width (in µS) ",
       "id": "H15qLDVSE",
       "label": "Pmax",
       "position": {
@@ -27,6 +30,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "The servo device",
       "id": "HJmZvD4SE",
       "label": "DEV",
       "position": {
@@ -46,6 +50,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "The board port the servo is connected to",
       "id": "HyNOLPVB4",
       "label": "PORT",
       "position": {

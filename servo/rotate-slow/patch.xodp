@@ -1,4 +1,5 @@
 {
+  "description": "Rotates a servo shaft to the given angular position with the rate specified.",
   "links": [
     {
       "id": "B1M65ncFSE",
@@ -63,17 +64,6 @@
       },
       "output": {
         "nodeId": "B17PETi9H4",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "HyfD4ai9BN",
-      "input": {
-        "nodeId": "H1A1kB_HN",
-        "pinKey": "S1Rp6EuBE"
-      },
-      "output": {
-        "nodeId": "HybPNai9rV",
         "pinKey": "__out__"
       }
     },
@@ -188,6 +178,17 @@
       }
     },
     {
+      "id": "rJ3LYbSF4",
+      "input": {
+        "nodeId": "H1A1kB_HN",
+        "pinKey": "S1Rp6EuBE"
+      },
+      "output": {
+        "nodeId": "SJtvkH_B4",
+        "pinKey": "H1vgFZBYE"
+      }
+    },
+    {
       "id": "rJdoONuSE",
       "input": {
         "nodeId": "HJuBDDNSV",
@@ -235,10 +236,10 @@
   "nodes": [
     {
       "id": "B17PETi9H4",
-      "label": "PLAY",
+      "label": "ENTR",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/from-bus"
@@ -280,6 +281,7 @@
       "type": "@/animation-segment"
     },
     {
+      "description": "The servo device",
       "id": "HJuBDDNSV",
       "label": "DEV'",
       "position": {
@@ -293,6 +295,7 @@
       "boundLiterals": {
         "__out__": "0.5"
       },
+      "description": "The target shaft rotation position in the [0; 1] range. The real angle/pulse values corresponding to the 0 and 1 boundaries are defined by the servo device node.",
       "id": "HkvdPw4S4",
       "label": "VAL",
       "position": {
@@ -303,19 +306,10 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "HybPNai9rV",
-      "label": "PLAY",
-      "position": {
-        "units": "slots",
-        "x": 10,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
       "boundLiterals": {
         "__out__": "+Inf"
       },
+      "description": "Defines the desired rate of rotation: amount of `VAL` change per second. To achieve correctness should be lower than the rated servo shaft rotation speed.",
       "id": "S1n9Yv4r4",
       "label": "RATE",
       "position": {
@@ -330,7 +324,7 @@
       "label": "DO",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 9,
         "y": 0
       },
       "type": "xod/patch-nodes/to-bus"
@@ -348,7 +342,7 @@
       "id": "SJtvkH_B4",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": 1
       },
       "type": "@/position-value"
@@ -363,11 +357,12 @@
       "type": "xod/core/defer"
     },
     {
+      "description": "The servo device",
       "id": "SkC4wvEr4",
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": -1
       },
       "type": "@/input-servo-device"
@@ -376,11 +371,12 @@
       "boundLiterals": {
         "__out__": "Never"
       },
+      "description": "Set the new target rotation value for the given device. The servo device gets locked until the rotation completes or would be cancelled with the `detach` node. The rotation will not started if the servo device is locked already by someone.",
       "id": "r11svP4H4",
       "label": "DO",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 9,
         "y": -1
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -396,7 +392,7 @@
     },
     {
       "id": "r1wV6o5SE",
-      "label": "PLAY",
+      "label": "ENTR",
       "position": {
         "units": "slots",
         "x": 9,
@@ -405,6 +401,7 @@
       "type": "xod/patch-nodes/to-bus"
     },
     {
+      "description": "Emits a pulse when the rotation is complete. Will pulse at the right moment only if `RATE` is lower than the real servo speed.",
       "id": "ryCUDDES4",
       "label": "DONE",
       "position": {

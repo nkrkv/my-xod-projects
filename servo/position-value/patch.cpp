@@ -16,4 +16,5 @@ void evaluate(Context ctx) {
         return;
 
     emitValue<output_VAL>(ctx, xservo->read01());
+    emitValue<output_DONE>(ctx, 1);
 }
