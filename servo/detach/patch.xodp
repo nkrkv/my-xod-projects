@@ -1,7 +1,17 @@
 {
   "nodes": [
     {
-      "id": "B1WX3NuSN",
+      "id": "H1siUVdSV",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SkuVINuHV",
       "label": "DEV'",
       "position": {
         "units": "slots",
@@ -11,7 +21,7 @@
       "type": "@/output-servo-device"
     },
     {
-      "id": "B1yXnEOrN",
+      "id": "r1I7U4Or4",
       "label": "DEV",
       "position": {
         "units": "slots",
@@ -21,31 +31,20 @@
       "type": "@/input-servo-device"
     },
     {
-      "description": "Current shaft position (projected).",
-      "id": "H13434dH4",
-      "label": "α",
+      "id": "rkzIUV_S4",
+      "label": "DO",
       "position": {
         "units": "slots",
-        "x": 5,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-number"
-    },
-    {
-      "id": "S1Ig6VurV",
-      "label": "UPD",
-      "position": {
-        "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "id": "r1AlaE_HV",
+      "id": "ryBuEa9SE",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 4,
         "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"

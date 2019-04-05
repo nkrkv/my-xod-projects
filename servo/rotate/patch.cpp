@@ -11,10 +11,10 @@ void evaluate(Context ctx) {
         emitValue<output_DEVU0027>(ctx, xservo);
     }
 
-    if (!isInputDirty<input_SET>(ctx))
+    if (!isInputDirty<input_DO>(ctx))
         return;
 
-    auto angle = getValue<input_U03B1>(ctx);
+    auto angle = getValue<input_VAL>(ctx);
     xservo->write01(angle);
     emitValue<output_ACK>(ctx, 1);
 }

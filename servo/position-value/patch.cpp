@@ -15,5 +15,5 @@ void evaluate(Context ctx) {
     if (!isInputDirty<input_UPD>(ctx))
         return;
 
-    emitValue<output_U03B1>(ctx, xservo->read01());
+    emitValue<output_VAL>(ctx, xservo->read01());
 }

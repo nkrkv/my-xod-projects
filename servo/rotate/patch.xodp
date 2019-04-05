@@ -5,7 +5,7 @@
         "__out__": "0.5"
       },
       "id": "B1lXALNOS4",
-      "label": "α",
+      "label": "VAL",
       "position": {
         "units": "slots",
         "x": 1,
@@ -25,10 +25,10 @@
     },
     {
       "boundLiterals": {
-        "__out__": "Continuously"
+        "__out__": "Never"
       },
       "id": "S1Q7C8NdBV",
-      "label": "SET",
+      "label": "DO",
       "position": {
         "units": "slots",
         "x": 2,

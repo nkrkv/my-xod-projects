@@ -11,10 +11,10 @@ void evaluate(Context ctx) {
         emitValue<output_DEVU0027>(ctx, xservo);
     }
 
-    if (!isInputDirty<input_SET>(ctx))
+    if (!isInputDirty<input_DO>(ctx))
         return;
 
     xservo->lockedFor = 0;
     xservo->servo.detach();
-    emitValue<output_ACK>(ctx, 1);
+    emitValue<output_DONE>(ctx, 1);
 }

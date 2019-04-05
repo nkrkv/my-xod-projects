@@ -294,7 +294,7 @@
         "__out__": "0.5"
       },
       "id": "HkvdPw4S4",
-      "label": "α",
+      "label": "VAL",
       "position": {
         "units": "slots",
         "x": 7,
@@ -317,7 +317,7 @@
         "__out__": "+Inf"
       },
       "id": "S1n9Yv4r4",
-      "label": "ω",
+      "label": "RATE",
       "position": {
         "units": "slots",
         "x": 8,
@@ -327,7 +327,7 @@
     },
     {
       "id": "SJT935KBE",
-      "label": "SET",
+      "label": "DO",
       "position": {
         "units": "slots",
         "x": 10,
@@ -351,7 +351,7 @@
         "x": 5,
         "y": 1
       },
-      "type": "@/position"
+      "type": "@/position-value"
     },
     {
       "id": "Sk7DdoYSE",
@@ -377,7 +377,7 @@
         "__out__": "Continuously"
       },
       "id": "r11svP4H4",
-      "label": "SET",
+      "label": "DO",
       "position": {
         "units": "slots",
         "x": 10,
@@ -416,7 +416,7 @@
     },
     {
       "id": "ryW6cncKHE",
-      "label": "SET",
+      "label": "DO",
       "position": {
         "units": "slots",
         "x": 9,

@@ -131,7 +131,7 @@
         "x": 0,
         "y": 2
       },
-      "type": "@/relax"
+      "type": "@/detach"
     },
     {
       "boundLiterals": {
