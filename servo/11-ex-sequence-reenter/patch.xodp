@@ -175,7 +175,7 @@
         "x": 1,
         "y": 2
       },
-      "type": "@/mutex-force-unlock"
+      "type": "@/mutex-break"
     },
     {
       "id": "Hy3qZx5YV",

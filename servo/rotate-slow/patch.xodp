@@ -336,7 +336,7 @@
         "x": 7,
         "y": 4
       },
-      "type": "@/mutex-lock"
+      "type": "@/mutex-gate"
     },
     {
       "id": "SJtvkH_B4",
