@@ -14,6 +14,6 @@ void evaluate(Context ctx) {
     if (!isInputDirty<input_DO>(ctx))
         return;
 
-    xservo->servo.detach();
+    xservo->detach();
     emitValue<output_DONE>(ctx, 1);
 }
