@@ -27,6 +27,11 @@ void evaluate(Context ctx) {
     if (justEntered)
         emitValue<output_ACQd>(ctx, 1);
 
-    if (isInputDirty<input_IN>(ctx) && mux->isLockedFor(nodeId))
-        emitValue<output_OUT>(ctx, 1);
+    auto active = mux->isLockedFor(nodeId);
+    emitValue<output_ACT>(ctx, active);
+
+    if (active) {
+        emitValue<output_LOOP>(ctx, 1);
+        setTimeout(ctx, 0);
+    }
 }

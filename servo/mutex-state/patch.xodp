@@ -1,93 +1,93 @@
 {
   "nodes": [
     {
-      "id": "BJsBc5FHE",
-      "label": "OUT",
-      "position": {
-        "units": "slots",
-        "x": 4,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "id": "Bk-GcqKrN",
+      "id": "BkeRUbQ5YV",
       "label": "RLS",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "id": "BkMOqqtSE",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
-    },
-    {
-      "id": "H1OMflcK4",
-      "label": "MUX",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 0
-      },
-      "type": "@/input-mutex"
-    },
-    {
-      "id": "H1jVq9FrE",
-      "label": "ACQd",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "id": "HJAMzx9KN",
+      "id": "By4C8Z7cK4",
       "label": "MUX'",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 0,
         "y": 2
       },
       "type": "@/output-mutex"
     },
     {
-      "id": "HyESq9FHN",
-      "label": "RLSd",
+      "id": "H1L08Z7cKE",
+      "label": "ACQ",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "HJW0LZQcKE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "HkG0UbX9FV",
+      "label": "MUX",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-mutex"
+    },
+    {
+      "id": "SJJlGmqKE",
+      "label": "LOOP",
+      "position": {
+        "units": "slots",
+        "x": 4,
         "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "id": "S15-cqKrV",
-      "label": "ACQ",
+      "id": "SkBCLZ7qYE",
+      "label": "RLSd",
       "position": {
         "units": "slots",
-        "x": 5,
-        "y": 0
+        "x": 2,
+        "y": 2
       },
-      "type": "xod/patch-nodes/input-pulse"
+      "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "id": "S1KM9qFBE",
-      "label": "IN",
+      "id": "r1XA8bQ5tE",
+      "label": "ACQd",
       "position": {
         "units": "slots",
-        "x": 4,
-        "y": 0
+        "x": 1,
+        "y": 2
       },
-      "type": "xod/patch-nodes/input-pulse"
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "r1wJGQ5YN",
+      "label": "ACT",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-boolean"
     }
   ]
 }
