@@ -5,21 +5,21 @@ struct State {
 {{ GENERATED_CODE }}
 
 void evaluate(Context ctx) {
-    auto res = getValue<input_RES>(ctx);
+    auto mux = getValue<input_MUX>(ctx);
 
     if (isSettingUp()) {
         // Short-circuit RES and RES'
-        emitValue<output_RESU0027>(ctx, res);
+        emitValue<output_MUXU0027>(ctx, mux);
     }
 
     bool justEntered = false;
     auto nodeId = getNodeId(ctx);
 
-    if (isInputDirty<input_ENTR>(ctx) && res->lockFor(nodeId)) {
+    if (isInputDirty<input_ENTR>(ctx) && mux->lockFor(nodeId)) {
         justEntered = true;
     }
 
-    if (isInputDirty<input_EXIT>(ctx) && res->unlock(nodeId)) {
+    if (isInputDirty<input_EXIT>(ctx) && mux->unlock(nodeId)) {
         justEntered = false;
         emitValue<output_EXITU0027>(ctx, 1);
     }
@@ -27,6 +27,6 @@ void evaluate(Context ctx) {
     if (justEntered)
         emitValue<output_ENTRU0027>(ctx, 1);
 
-    if (isInputDirty<input_IN>(ctx) && res->isLockedFor(nodeId))
+    if (isInputDirty<input_IN>(ctx) && mux->isLockedFor(nodeId))
         emitValue<output_OUT>(ctx, 1);
 }

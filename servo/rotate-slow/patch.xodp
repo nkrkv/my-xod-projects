@@ -2,35 +2,13 @@
   "description": "Rotates a servo shaft to the given angular position with the rate specified.",
   "links": [
     {
-      "id": "B1M65ncFSE",
+      "id": "BklvMg5F4",
       "input": {
         "nodeId": "SJhu9qtHN",
-        "pinKey": "S15-cqKrV"
+        "pinKey": "H1OMflcK4"
       },
       "output": {
-        "nodeId": "ryW6cncKHE",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "BkjUMa9BN",
-      "input": {
-        "nodeId": "ByvLMacS4",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "SJtvkH_B4",
-        "pinKey": "B1WX3NuSN"
-      }
-    },
-    {
-      "id": "HJ_vMaqr4",
-      "input": {
-        "nodeId": "BJEi_EdBE",
-        "pinKey": "HkfXAUEdrN"
-      },
-      "output": {
-        "nodeId": "ByvLMacS4",
+        "nodeId": "Sykbxl5Y4",
         "pinKey": "__out__"
       }
     },
@@ -42,6 +20,28 @@
       },
       "output": {
         "nodeId": "S1n9Yv4r4",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkMz-xqKN",
+      "input": {
+        "nodeId": "H11zZgqKE",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJtvkH_B4",
+        "pinKey": "B1WX3NuSN"
+      }
+    },
+    {
+      "id": "HkXzWeqYV",
+      "input": {
+        "nodeId": "BJEi_EdBE",
+        "pinKey": "HkfXAUEdrN"
+      },
+      "output": {
+        "nodeId": "H11zZgqKE",
         "pinKey": "__out__"
       }
     },
@@ -68,10 +68,10 @@
       }
     },
     {
-      "id": "S1gTc3cKSV",
+      "id": "S1rXge9FN",
       "input": {
-        "nodeId": "SJT935KBE",
-        "pinKey": "__in__"
+        "nodeId": "SJhu9qtHN",
+        "pinKey": "S15-cqKrV"
       },
       "output": {
         "nodeId": "r11svP4H4",
@@ -109,17 +109,6 @@
       "output": {
         "nodeId": "SJhu9qtHN",
         "pinKey": "HyESq9FHN"
-      }
-    },
-    {
-      "id": "SJyi5gBKN",
-      "input": {
-        "nodeId": "SJhu9qtHN",
-        "pinKey": "HJXoYlSKN"
-      },
-      "output": {
-        "nodeId": "ByvLMacS4",
-        "pinKey": "__out__"
       }
     },
     {
@@ -164,6 +153,17 @@
       "output": {
         "nodeId": "SJtvkH_B4",
         "pinKey": "H13434dH4"
+      }
+    },
+    {
+      "id": "SyfPGx5KE",
+      "input": {
+        "nodeId": "HJIWegcFE",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJhu9qtHN",
+        "pinKey": "HJAMzx9KN"
       }
     },
     {
@@ -249,7 +249,7 @@
       "position": {
         "units": "slots",
         "x": 5,
-        "y": 5
+        "y": 6
       },
       "type": "@/rotate"
     },
@@ -263,11 +263,11 @@
       "type": "xod/patch-nodes/jumper"
     },
     {
-      "id": "ByvLMacS4",
+      "id": "H11zZgqKE",
       "position": {
         "units": "slots",
-        "x": 5,
-        "y": 3
+        "x": 4,
+        "y": 5
       },
       "type": "xod/patch-nodes/jumper"
     },
@@ -281,12 +281,22 @@
       "type": "@/animation-segment"
     },
     {
+      "id": "HJIWegcFE",
+      "label": "MUX'",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 5
+      },
+      "type": "@/output-mutex"
+    },
+    {
       "description": "The servo device",
       "id": "HJuBDDNSV",
       "label": "DEV'",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": 7
       },
       "type": "@/output-servo-device"
@@ -320,23 +330,13 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "SJT935KBE",
-      "label": "DO",
-      "position": {
-        "units": "slots",
-        "x": 9,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/to-bus"
-    },
-    {
       "id": "SJhu9qtHN",
       "position": {
         "units": "slots",
         "x": 7,
         "y": 4
       },
-      "type": "@/resource-lock"
+      "type": "@/mutex-lock"
     },
     {
       "id": "SJtvkH_B4",
@@ -368,6 +368,16 @@
       "type": "@/input-servo-device"
     },
     {
+      "id": "Sykbxl5Y4",
+      "label": "MUX",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/input-mutex"
+    },
+    {
       "boundLiterals": {
         "__out__": "Never"
       },
@@ -377,7 +387,7 @@
       "position": {
         "units": "slots",
         "x": 9,
-        "y": -1
+        "y": 3
       },
       "type": "xod/patch-nodes/input-pulse"
     },
@@ -410,16 +420,6 @@
         "y": 7
       },
       "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "id": "ryW6cncKHE",
-      "label": "DO",
-      "position": {
-        "units": "slots",
-        "x": 9,
-        "y": 3
-      },
-      "type": "xod/patch-nodes/from-bus"
     }
   ]
 }

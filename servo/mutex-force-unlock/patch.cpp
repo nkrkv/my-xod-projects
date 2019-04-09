@@ -1,19 +1,20 @@
 
-struct State { };
+struct State {
+};
 
 {{ GENERATED_CODE }}
 
 void evaluate(Context ctx) {
-    auto xservo = getValue<input_DEV>(ctx);
+    auto mux = getValue<input_MUX>(ctx);
 
     if (isSettingUp()) {
-        // Short-circuit DEV and DEV'
-        emitValue<output_DEVU0027>(ctx, xservo);
+        // Short-circuit RES and RES'
+        emitValue<output_MUXU0027>(ctx, mux);
     }
 
     if (!isInputDirty<input_DO>(ctx))
         return;
 
-    xservo->servo.detach();
+    mux->forceUnlock();
     emitValue<output_DONE>(ctx, 1);
 }

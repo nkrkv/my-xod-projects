@@ -1,16 +1,6 @@
 {
   "nodes": [
     {
-      "id": "BJe3KlrtV",
-      "label": "RES'",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-t1"
-    },
-    {
       "id": "BJsBc5FHE",
       "label": "OUT",
       "position": {
@@ -40,6 +30,16 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "id": "H1OMflcK4",
+      "label": "MUX",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "@/input-mutex"
+    },
+    {
       "id": "H1jVq9FrE",
       "label": "ENTR'",
       "position": {
@@ -50,14 +50,14 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "id": "HJXoYlSKN",
-      "label": "RES",
+      "id": "HJAMzx9KN",
+      "label": "MUX'",
       "position": {
         "units": "slots",
         "x": 3,
-        "y": 0
+        "y": 2
       },
-      "type": "xod/patch-nodes/input-t1"
+      "type": "@/output-mutex"
     },
     {
       "id": "HyESq9FHN",

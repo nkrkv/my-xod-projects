@@ -34,6 +34,28 @@
       }
     },
     {
+      "id": "HkWH-ecFE",
+      "input": {
+        "nodeId": "rJtl_v4BV",
+        "pinKey": "Sykbxl5Y4"
+      },
+      "output": {
+        "nodeId": "HJSguwVBN",
+        "pinKey": "HJIWegcFE"
+      }
+    },
+    {
+      "id": "HkyB-x9K4",
+      "input": {
+        "nodeId": "HJSguwVBN",
+        "pinKey": "Sykbxl5Y4"
+      },
+      "output": {
+        "nodeId": "rJZxuw4SE",
+        "pinKey": "HJIWegcFE"
+      }
+    },
+    {
       "id": "SkdK48uH4",
       "input": {
         "nodeId": "SkR1uwVHN",
@@ -56,6 +78,17 @@
       }
     },
     {
+      "id": "rJwSZe5KN",
+      "input": {
+        "nodeId": "SkR1uwVHN",
+        "pinKey": "Sykbxl5Y4"
+      },
+      "output": {
+        "nodeId": "SkBHbl9tN",
+        "pinKey": "HJAPJgcFE"
+      }
+    },
+    {
       "id": "rJxfuDEHE",
       "input": {
         "nodeId": "HJSguwVBN",
@@ -64,6 +97,17 @@
       "output": {
         "nodeId": "rJZxuw4SE",
         "pinKey": "ryCUDDES4"
+      }
+    },
+    {
+      "id": "rkC4-x9tE",
+      "input": {
+        "nodeId": "rJZxuw4SE",
+        "pinKey": "Sykbxl5Y4"
+      },
+      "output": {
+        "nodeId": "SkR1uwVHN",
+        "pinKey": "HJIWegcFE"
       }
     },
     {
@@ -97,7 +141,7 @@
       "id": "BJfKV8_B4",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 8,
         "y": 1
       },
       "type": "xod/common-hardware/button"
@@ -128,6 +172,15 @@
         "y": 0
       },
       "type": "@/servo-device"
+    },
+    {
+      "id": "SkBHbl9tN",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "@/mutex"
     },
     {
       "boundLiterals": {
