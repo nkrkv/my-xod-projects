@@ -1,55 +1,36 @@
 {
   "links": [
     {
-      "id": "SJy_fL_HE",
+      "id": "S1umWxBtN",
       "input": {
-        "nodeId": "SJsDMIOrV",
-        "pinKey": "B1lXALNOS4"
+        "nodeId": "Bym7-lHYN",
+        "pinKey": "Bk5lexBtE"
       },
       "output": {
         "nodeId": "r1TbqP4HV",
         "pinKey": "H1sM2A12-"
-      }
-    },
-    {
-      "id": "rJzuG8dS4",
-      "input": {
-        "nodeId": "SJsDMIOrV",
-        "pinKey": "HkfXAUEdrN"
-      },
-      "output": {
-        "nodeId": "BJBx5w4rN",
-        "pinKey": "HJmZvD4SE"
       }
     }
   ],
   "nodes": [
     {
       "boundLiterals": {
-        "ByJ9IwVBV": "600",
-        "H15qLDVSE": "2400",
-        "HyNOLPVB4": "D10"
+        "BkXK1eBYV": "D10"
       },
-      "id": "BJBx5w4rN",
+      "id": "Bym7-lHYN",
       "position": {
-        "x": 308,
-        "y": 315
+        "units": "slots",
+        "x": 10,
+        "y": 3
       },
       "type": "@/servo"
     },
     {
-      "id": "SJsDMIOrV",
-      "position": {
-        "x": 484,
-        "y": 315
-      },
-      "type": "@/arm-simple"
-    },
-    {
       "id": "r1TbqP4HV",
       "position": {
-        "x": 528,
-        "y": 105
+        "units": "slots",
+        "x": 11,
+        "y": 1
       },
       "type": "xod/common-hardware/pot"
     }

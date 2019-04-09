@@ -11,10 +11,10 @@ void evaluate(Context ctx) {
         emitValue<output_DEVU0027>(ctx, xservo);
     }
 
-    if (!isInputDirty<input_SET>(ctx))
+    if (!isInputDirty<input_DO>(ctx))
         return;
 
-    xservo->lockedFor = 0;
-    xservo->servo.detach();
+    auto angle = getValue<input_VAL>(ctx);
+    xservo->write01(angle);
     emitValue<output_ACK>(ctx, 1);
 }

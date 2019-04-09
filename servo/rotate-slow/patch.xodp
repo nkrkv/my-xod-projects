@@ -1,46 +1,14 @@
 {
+  "description": "Rotates a servo shaft to the given angular position with the rate specified.",
   "links": [
     {
-      "id": "B1M65ncFSE",
+      "id": "BklvMg5F4",
       "input": {
         "nodeId": "SJhu9qtHN",
-        "pinKey": "S15-cqKrV"
+        "pinKey": "H1OMflcK4"
       },
       "output": {
-        "nodeId": "ryW6cncKHE",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "BJv86acHE",
-      "input": {
-        "nodeId": "SyOHHVOrV",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "Sk7DdoYSE",
-        "pinKey": "HJhXDIY9-"
-      }
-    },
-    {
-      "id": "BkjUMa9BN",
-      "input": {
-        "nodeId": "ByvLMacS4",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "SJtvkH_B4",
-        "pinKey": "B1WX3NuSN"
-      }
-    },
-    {
-      "id": "HJ_vMaqr4",
-      "input": {
-        "nodeId": "BJEi_EdBE",
-        "pinKey": "HkfXAUEdrN"
-      },
-      "output": {
-        "nodeId": "ByvLMacS4",
+        "nodeId": "Sykbxl5Y4",
         "pinKey": "__out__"
       }
     },
@@ -52,6 +20,28 @@
       },
       "output": {
         "nodeId": "S1n9Yv4r4",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkMz-xqKN",
+      "input": {
+        "nodeId": "H11zZgqKE",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJtvkH_B4",
+        "pinKey": "B1WX3NuSN"
+      }
+    },
+    {
+      "id": "HkXzWeqYV",
+      "input": {
+        "nodeId": "BJEi_EdBE",
+        "pinKey": "HkfXAUEdrN"
+      },
+      "output": {
+        "nodeId": "H11zZgqKE",
         "pinKey": "__out__"
       }
     },
@@ -78,32 +68,10 @@
       }
     },
     {
-      "id": "HyfD4ai9BN",
-      "input": {
-        "nodeId": "H1A1kB_HN",
-        "pinKey": "S1Rp6EuBE"
-      },
-      "output": {
-        "nodeId": "HybPNai9rV",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "S1TLf6crV",
+      "id": "S1rXge9FN",
       "input": {
         "nodeId": "SJhu9qtHN",
-        "pinKey": "ryRL99YBV"
-      },
-      "output": {
-        "nodeId": "ByvLMacS4",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "S1gTc3cKSV",
-      "input": {
-        "nodeId": "SJT935KBE",
-        "pinKey": "__in__"
+        "pinKey": "S15-cqKrV"
       },
       "output": {
         "nodeId": "r11svP4H4",
@@ -188,6 +156,17 @@
       }
     },
     {
+      "id": "SyfPGx5KE",
+      "input": {
+        "nodeId": "HJIWegcFE",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJhu9qtHN",
+        "pinKey": "HJAMzx9KN"
+      }
+    },
+    {
       "id": "r1rdWT9B4",
       "input": {
         "nodeId": "r1KGkSdHV",
@@ -196,6 +175,17 @@
       "output": {
         "nodeId": "H1A1kB_HN",
         "pinKey": "ry6X04drV"
+      }
+    },
+    {
+      "id": "rJ3LYbSF4",
+      "input": {
+        "nodeId": "H1A1kB_HN",
+        "pinKey": "S1Rp6EuBE"
+      },
+      "output": {
+        "nodeId": "SJtvkH_B4",
+        "pinKey": "H1vgFZBYE"
       }
     },
     {
@@ -246,9 +236,10 @@
   "nodes": [
     {
       "id": "B17PETi9H4",
-      "label": "PLAY",
+      "label": "ENTR",
       "position": {
-        "x": 220,
+        "units": "slots",
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/from-bus"
@@ -256,174 +247,181 @@
     {
       "id": "BJEi_EdBE",
       "position": {
-        "x": 176,
-        "y": 525
+        "units": "slots",
+        "x": 5,
+        "y": 6
       },
-      "type": "@/arm-simple"
+      "type": "@/rotate"
     },
     {
       "id": "BydtcNhHN",
       "position": {
-        "x": 396,
-        "y": 315
+        "units": "slots",
+        "x": 10,
+        "y": 3
       },
       "type": "xod/patch-nodes/jumper"
     },
     {
-      "id": "ByvLMacS4",
+      "id": "H11zZgqKE",
       "position": {
-        "x": 176,
-        "y": 315
+        "units": "slots",
+        "x": 4,
+        "y": 5
       },
       "type": "xod/patch-nodes/jumper"
     },
     {
       "id": "H1A1kB_HN",
       "position": {
-        "x": 220,
-        "y": 210
+        "units": "slots",
+        "x": 6,
+        "y": 2
       },
       "type": "@/animation-segment"
     },
     {
+      "description": "The mutex, same as `MUX`",
+      "id": "HJIWegcFE",
+      "label": "MUX'",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 5
+      },
+      "type": "@/output-mutex"
+    },
+    {
+      "description": "The servo device",
       "id": "HJuBDDNSV",
       "label": "DEV'",
       "position": {
-        "x": 176,
-        "y": 735
+        "units": "slots",
+        "x": 4,
+        "y": 7
       },
-      "type": "@/output-servo"
+      "type": "@/output-servo-device"
     },
     {
       "boundLiterals": {
         "__out__": "0.5"
       },
+      "description": "The target shaft rotation position in the [0; 1] range. The real angle/pulse values corresponding to the 0 and 1 boundaries are defined by the servo device node.",
       "id": "HkvdPw4S4",
-      "label": "α",
+      "label": "VAL",
       "position": {
-        "x": 264,
-        "y": -105
+        "units": "slots",
+        "x": 7,
+        "y": -1
       },
       "type": "xod/patch-nodes/input-number"
-    },
-    {
-      "id": "HybPNai9rV",
-      "label": "PLAY",
-      "position": {
-        "x": 396,
-        "y": 105
-      },
-      "type": "xod/patch-nodes/from-bus"
     },
     {
       "boundLiterals": {
         "__out__": "+Inf"
       },
+      "description": "Defines the desired rate of rotation: amount of `VAL` change per second. To achieve correctness should be lower than the rated servo shaft rotation speed.",
       "id": "S1n9Yv4r4",
-      "label": "ω",
+      "label": "RATE",
       "position": {
-        "x": 308,
-        "y": -105
+        "units": "slots",
+        "x": 8,
+        "y": -1
       },
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "SJT935KBE",
-      "label": "SET",
-      "position": {
-        "x": 352,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/to-bus"
-    },
-    {
       "id": "SJhu9qtHN",
       "position": {
-        "x": 264,
-        "y": 420
+        "units": "slots",
+        "x": 7,
+        "y": 4
       },
-      "type": "@/resource-lock"
+      "type": "@/mutex-gate"
     },
     {
       "id": "SJtvkH_B4",
       "position": {
-        "x": 176,
-        "y": 105
+        "units": "slots",
+        "x": 4,
+        "y": 1
       },
-      "type": "@/position"
+      "type": "@/position-value"
     },
     {
       "id": "Sk7DdoYSE",
       "position": {
-        "x": 352,
-        "y": 525
+        "units": "slots",
+        "x": 9,
+        "y": 5
       },
       "type": "xod/core/defer"
     },
     {
+      "description": "The servo device",
       "id": "SkC4wvEr4",
       "label": "DEV",
       "position": {
-        "x": 176,
-        "y": -105
+        "units": "slots",
+        "x": 4,
+        "y": -1
       },
-      "type": "@/input-servo"
+      "type": "@/input-servo-device"
     },
     {
-      "id": "SyOHHVOrV",
-      "label": "ACK",
+      "description": "The mutex which will be tried to be locked before the rotation. If the lock acquisition fails, the rotation will not start. The mutex is released when rotation completes. Leave unconected if the servo is not controlled by multiple nodes.",
+      "id": "Sykbxl5Y4",
+      "label": "MUX",
       "position": {
-        "x": 264,
-        "y": 735
+        "units": "slots",
+        "x": 5,
+        "y": 3
       },
-      "type": "xod/patch-nodes/output-pulse"
+      "type": "@/input-mutex"
     },
     {
       "boundLiterals": {
-        "__out__": "Continuously"
+        "__out__": "Never"
       },
+      "description": "Set the new target rotation value for the given device.",
       "id": "r11svP4H4",
-      "label": "SET",
+      "label": "DO",
       "position": {
-        "x": 352,
-        "y": -105
+        "units": "slots",
+        "x": 9,
+        "y": 3
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
       "id": "r1KGkSdHV",
       "position": {
-        "x": 308,
-        "y": 315
+        "units": "slots",
+        "x": 8,
+        "y": 3
       },
       "type": "xod/core/continuously-pausable"
     },
     {
       "id": "r1wV6o5SE",
-      "label": "PLAY",
+      "label": "ENTR",
       "position": {
-        "x": 352,
-        "y": 630
+        "units": "slots",
+        "x": 9,
+        "y": 6
       },
       "type": "xod/patch-nodes/to-bus"
     },
     {
+      "description": "Emits a pulse when the rotation is complete. Will pulse at the right moment only if `RATE` is lower than the real servo speed.",
       "id": "ryCUDDES4",
       "label": "DONE",
       "position": {
-        "x": 396,
-        "y": 735
+        "units": "slots",
+        "x": 10,
+        "y": 7
       },
       "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "id": "ryW6cncKHE",
-      "label": "SET",
-      "position": {
-        "x": 352,
-        "y": 315
-      },
-      "type": "xod/patch-nodes/from-bus"
     }
   ]
 }

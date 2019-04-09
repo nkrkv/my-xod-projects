@@ -1,0 +1,58 @@
+{
+  "description": "Detaches a servo from the signal line effectively removing torque from the motor.",
+  "nodes": [
+    {
+      "description": "Pulses when detached successfully",
+      "id": "H1siUVdSV",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "The servo device",
+      "id": "SkuVINuHV",
+      "label": "DEV'",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "@/output-servo-device"
+    },
+    {
+      "description": "The servo device",
+      "id": "r1I7U4Or4",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "@/input-servo-device"
+    },
+    {
+      "description": "Do detach",
+      "id": "rkzIUV_S4",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ryBuEa9SE",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}
