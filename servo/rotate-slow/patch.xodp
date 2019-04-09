@@ -281,6 +281,7 @@
       "type": "@/animation-segment"
     },
     {
+      "description": "The mutex, same as `MUX`",
       "id": "HJIWegcFE",
       "label": "MUX'",
       "position": {
@@ -368,6 +369,7 @@
       "type": "@/input-servo-device"
     },
     {
+      "description": "The mutex which will be tried to be locked before the rotation. If the lock acquisition fails, the rotation will not start. The mutex is released when rotation completes. Leave unconected if the servo is not controlled by multiple nodes.",
       "id": "Sykbxl5Y4",
       "label": "MUX",
       "position": {
@@ -381,7 +383,7 @@
       "boundLiterals": {
         "__out__": "Never"
       },
-      "description": "Set the new target rotation value for the given device. The servo device gets locked until the rotation completes or would be cancelled with the `detach` node. The rotation will not started if the servo device is locked already by someone.",
+      "description": "Set the new target rotation value for the given device.",
       "id": "r11svP4H4",
       "label": "DO",
       "position": {

@@ -1,6 +1,8 @@
 {
+  "description": "Locks/unlocks a mutex and passes/rejects pulses through itself depending on the mutex lock state",
   "nodes": [
     {
+      "description": "Follows a pulse on `IN` if the mutex is acquired by this particular instance of the node",
       "id": "BJsBc5FHE",
       "label": "OUT",
       "position": {
@@ -11,6 +13,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Release the mutex lock",
       "id": "Bk-GcqKrN",
       "label": "RLS",
       "position": {
@@ -30,6 +33,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "The mutex",
       "id": "H1OMflcK4",
       "label": "MUX",
       "position": {
@@ -40,6 +44,7 @@
       "type": "@/input-mutex"
     },
     {
+      "description": "Pulses if the mutex lock acquired successfully, that is, it was free at the moment of `ACQ` pulse",
       "id": "H1jVq9FrE",
       "label": "ACQd",
       "position": {
@@ -50,6 +55,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "The mutex",
       "id": "HJAMzx9KN",
       "label": "MUX'",
       "position": {
@@ -60,6 +66,7 @@
       "type": "@/output-mutex"
     },
     {
+      "description": "Pulses if the mutex lock released successfully, that is, it belonged to this particular node instance at the moment of `RLS` pulse",
       "id": "HyESq9FHN",
       "label": "RLSd",
       "position": {
@@ -70,6 +77,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Acquire the mutex lock",
       "id": "S15-cqKrV",
       "label": "ACQ",
       "position": {
@@ -80,6 +88,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "A pulse to pass or reject",
       "id": "S1KM9qFBE",
       "label": "IN",
       "position": {
